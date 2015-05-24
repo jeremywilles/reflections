@@ -4,3 +4,9 @@ What happens when you initialize a respository? Why do you need to do it?
 	A hidden folder is created to store meta-data about that repository. You need
 	to do it so the meta data can be collected.
 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Staging area is holding for a commit. It has not been commited, but they are ready to. I suppose this would help if you need to back something out of the commit area..
+
+	
