@@ -9,4 +9,25 @@ How is the staging area different from the working directory and the repository?
 
 	Staging area is holding for a commit. It has not been commited, but they are ready to. I suppose this would help if you need to back something out of the commit area..
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By using git diff to compare working dir and staging area 
+	and using git diff --staged to see difference between staging area
+	and head
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	trying out new things that may not work
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	keep lines that are in both
+	delete lines that have been deleted in either
+	keep lines that have been added in either
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	sometime when a commit is easy enough, an automatic merge is great. sometimes, you need to see the differences and mange them through your team
+
 	
